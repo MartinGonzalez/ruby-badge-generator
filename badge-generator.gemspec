@@ -1,11 +1,11 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "badge/generator/version"
+require "version/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "badge-generator"
-  spec.version       = Badge::Generator::VERSION
+  spec.name          = "badge_generator_call"
+  spec.version       = BadgeGenerator::VERSION
   spec.authors       = ["Martin Gonzalez"]
   spec.email         = ["gonzalez.martin90@gmail.com"]
 
